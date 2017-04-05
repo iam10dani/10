@@ -47,29 +47,6 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
                   myRole: "C#"
               }
           ]
-      },
-      {
-          id: 2,
-          heading: "DVT (System Development Learnership)",
-          title: "learners daily register WPF application",
-          description: "learners daily register",
-          image: "DVT",
-          theme:"info",
-          url: "fp360.us:459",
-          roles: [
-              {
-                  theme: "success",
-                  myRole: "UI Design"
-              },
-              {
-                  theme: "info",
-                  myRole: "UI Development"
-              },
-              {
-                  theme: "warning",
-                  myRole: "SQL"
-              }
-          ]
       }
     ];
 

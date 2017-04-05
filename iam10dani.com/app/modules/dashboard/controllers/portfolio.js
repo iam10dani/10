@@ -19,8 +19,8 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash) {
             title: "AssetTracking website"
         },
         {
-            image: "DVT",
-            title: "Learnership Daily Register"
+            image: "iam10dani",
+            title: "My Personal Website"
         }
     ];
 

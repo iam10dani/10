@@ -17,10 +17,10 @@ function ($rootScope, $scope, $state, $location, dashboardService, Flash, $http)
     vm.submitForm = function () {
         console.log(vm.message);
         var request = $http({
-            method: "post",
-            url: "contact.php",
+            method: "POST",
+            url: "https://10smsapi.azurewebsites.net/api/ContactMe",
             data: vm.message,
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+           // headers: { 'Content-Type': 'application/json', }
         });
 
         /* Check whether the HTTP Request is successful or not. */
